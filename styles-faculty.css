@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #40514E;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #EAF6F6;
+  border-width: 8px;
+  width: 5%;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6.25rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.open-hours {
+  padding: 50px;
+  margin-right: 0;
+  margin-left: 500px;
+
+
+}
+.home-heading {
+  margin-bottom: 30px;
+}
+
+.header {
+  height: 143px;
+  float: left;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.xcode {
+  margin-right: 30px;
+  float: left;
+  height: 200px;
+  width: 25%;
+  /* border-radius: 10%; */
+}
+
+.ML {
+  float: right;
+  margin-left: 30px;
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+}
+
+.box {
+  position: relative;
+  border-radius: 3px;
+  background: #ffffff;
+  border-top: 3px solid #d2d6de;
+  margin-bottom: 15px;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  margin-left: 200px;
+}
+
+.box-body {
+  padding-left: 200px;
+  padding-top: 20px;
+}
+/* ////////////////////////////////////////// */
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #ff5722;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #dd2c00;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.bottom-container {
+  margin-top: 50px;
+  background-color: #66BFBF;
+}
